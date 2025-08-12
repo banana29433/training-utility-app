@@ -1,0 +1,42 @@
+{
+	"type": 3,
+	"coHosts": [],
+	"spectators": [],
+	"wentOver": "h",
+	"notes": "",
+	"date": "08/19/2024",
+	"attendees": [
+		{
+			"username": "StarNerd1609",
+			"rank": 1,
+			"result": 1,
+			"award": false
+		},
+		{
+			"username": "Regxlar",
+			"rank": 2,
+			"result": 1,
+			"award": false
+		},
+		{
+			"username": "benqve3",
+			"rank": 3,
+			"result": 1,
+			"award": false
+		}
+	],
+	"activities": [
+		{
+			"type": 3,
+			"name": "h",
+			"totalMarks": 100,
+			"markingScheme": 100,
+			"bonus": false,
+			"attendees": [
+				60,
+				0,
+				0
+			]
+		}
+	]
+}

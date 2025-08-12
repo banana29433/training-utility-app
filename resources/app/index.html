@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
+		<link rel="stylesheet" href="./assets/css/global.css">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://kit.fontawesome.com">
+	</head>
+	<body>
+		<div id="app-mount" class="app-mount">
+			<div class="titleBar flex directionRowReverse justifyStart alignStretch">
+				<div class="winButtonClose winButton flex justifyCenter alignCenter">
+					<svg name="TitleBarClose" aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+						<polygon fill="#ffffff" fill-rule="evenodd" points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"></polygon>
+					</svg>
+				</div>
+				<div class="winButtonMinMax winButtonMax winButton flex justifyCenter alignCenter">
+					<svg name="TitleBarMaximize" aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+						<rect width="9" height="9" x="1.5" y="1.5" fill="none" stroke="#ffffff"></rect>
+					</svg>
+				</div>
+				<div class="winButtonMinMax winButtonMin winButton flex justifyCenter alignCenter">
+					<svg name="TitleBarMinimize" aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+						<rect fill="#ffffff" width="10" height="1" x="1" y="6"></rect>
+					</svg>
+				</div>
+			</div>
+			<div class="app">
+				<div class="content">
+					<div class="contentWrapper">
+						<div class="contentScrollerWrap">
+							<div class="contentScroller">
+								<div class="contentWrapperInner">
+									<div class="actionButtons marginBottomSmall"></div>
+									<div class="attendeesContainer">
+										<div class="attendeesWrapper marginBottomSmall flex">
+											<table class="attendees">
+												<thead>
+													<th></th>
+													<th>Username</th>
+													<th>Rank</th>
+													<th class="vcCheckerThead"></th>
+													<th class="newActivity"></th>
+													<th>Score</th>
+													<th></th>
+													<th class="resultThead"></th>
+													<th></th>
+													<th></th>
+													<th></th>
+												</thead>
+												<tbody></tbody>
+												<tfoot>
+													<tr>
+														<td></td>
+														<td class="flex alignCenter">
+															<span class="attendeeCounter"></span>
+														</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+										<div class="tablePopoutsContainer"></div>
+									</div>
+									<div class="type marginBottomSmall formField">
+										<span class="fieldName">Training type:</span>
+									</div>
+									<div class="coHosts marginBottomSmall formField textareaFormField">
+										<span class="fieldName">Co-Hosts:</span>
+										<div class="coHostsWrapper"></div>
+									</div>
+									<div class="spectators marginBottomSmall formField textareaFormField">
+										<span class="fieldName">Spectators:</span>
+										<div class="spectatorsWrapper"></div>
+									</div>
+									<div class="date marginBottomSmall formField">
+										<span class="fieldName">Date:</span>
+									</div>
+									<div class="wentOver marginBottomSmall formField textareaFormField">
+										<span class="fieldName">Went over:</span>
+										<textarea rows="6"></textarea>
+									</div>
+									<div class="notes marginBottomSmall formField textareaFormField">
+										<span class="fieldName">Notes:</span>
+										<textarea rows="6"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modalContainer"></div>
+			<div class="popoutsContainer"></div>
+		</div>
+		<script src="./assets/js/app.js"></script>
+		<script src="https://kit.fontawesome.com/91747a1ac0.js" crossorigin="anonymous"></script>
+	</body>
+</html>

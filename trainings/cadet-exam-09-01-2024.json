@@ -1,0 +1,117 @@
+{
+	"type": 1,
+	"coHosts": [
+		"Pineapple_Pizza1551"
+	],
+	"spectators": [],
+	"wentOver": "Guidelines Questions\nTSC SIm\nPaid Riot\nRed Fox\nBriefing",
+	"notes": "Originally hosted by Lundinox",
+	"date": "09/01/2024",
+	"attendees": [
+		{
+			"username": "DASDADSADfds",
+			"rank": 1,
+			"result": 1,
+			"award": false
+		}
+	],
+	"activities": [
+		{
+			"type": 1,
+			"name": "Guidelines questions",
+			"totalMarks": 8,
+			"questions": [
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				},
+				{
+					"question": "Question",
+					"answer": "Question"
+				}
+			],
+			"attendees": [
+				[
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					false
+				]
+			]
+		},
+		{
+			"type": 3,
+			"name": "Scenario 1",
+			"totalMarks": 1,
+			"markingScheme": 1,
+			"bonus": false,
+			"attendees": [
+				1
+			]
+		},
+		{
+			"type": 3,
+			"name": "Scenario 2",
+			"totalMarks": 1,
+			"markingScheme": 1,
+			"bonus": false,
+			"attendees": [
+				0.9
+			]
+		},
+		{
+			"type": 3,
+			"name": "Scenario 3",
+			"totalMarks": 1,
+			"markingScheme": 1,
+			"bonus": false,
+			"attendees": [
+				1
+			]
+		},
+		{
+			"type": 2,
+			"name": "Brief",
+			"totalMarks": 1,
+			"items": [
+				"TSTA",
+				"Scanner"
+			],
+			"itemMarkingScheme": 0.5,
+			"attendees": [
+				[
+					0.5,
+					0.5
+				]
+			]
+		}
+	]
+}

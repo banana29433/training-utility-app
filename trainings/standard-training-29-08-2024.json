@@ -1,0 +1,140 @@
+{
+	"type": 3,
+	"coHosts": [
+		"Pineapple_Pizza1551"
+	],
+	"spectators": [
+		"OwlSeeYouThere"
+	],
+	"wentOver": "Red Fox\nLarge Paid Riot\nHostage Sit\nGuidelines Questions",
+	"notes": "",
+	"date": "29/08/2024",
+	"attendees": [
+		{
+			"username": "FedeJack05",
+			"rank": 2,
+			"result": 1,
+			"award": false
+		},
+		{
+			"username": "SayPalCZ",
+			"rank": 3,
+			"result": 2,
+			"award": false
+		},
+		{
+			"username": "RANGER_1939",
+			"rank": 3,
+			"result": 2,
+			"award": false
+		}
+	],
+	"activities": [
+		{
+			"type": 2,
+			"name": "Scenario Performance",
+			"totalMarks": 6,
+			"items": [
+				"Scenario 1",
+				"Scenario 2",
+				"Scenario 3"
+			],
+			"itemMarkingScheme": 2,
+			"attendees": [
+				[
+					2,
+					2,
+					2
+				],
+				[
+					2,
+					2,
+					2
+				],
+				[
+					2,
+					2,
+					2
+				]
+			]
+		},
+		{
+			"type": 2,
+			"name": "Communication Score",
+			"totalMarks": 3,
+			"items": [
+				"Scenario 1",
+				"Scenario 2",
+				"Scenario 3"
+			],
+			"itemMarkingScheme": 1,
+			"attendees": [
+				[
+					1,
+					1,
+					1
+				],
+				[
+					1,
+					1,
+					0.75
+				],
+				[
+					1,
+					1,
+					0.75
+				]
+			]
+		},
+		{
+			"type": 1,
+			"name": "Guidelines questions",
+			"totalMarks": 5,
+			"questions": [
+				{
+					"question": "h",
+					"answer": "h"
+				},
+				{
+					"question": "h",
+					"answer": "h"
+				},
+				{
+					"question": "h",
+					"answer": "h"
+				},
+				{
+					"question": "h",
+					"answer": "h"
+				},
+				{
+					"question": "h",
+					"answer": "h"
+				}
+			],
+			"attendees": [
+				[
+					true,
+					null,
+					true,
+					true,
+					true
+				],
+				[
+					true,
+					null,
+					false,
+					true,
+					true
+				],
+				[
+					true,
+					false,
+					false,
+					true,
+					true
+				]
+			]
+		}
+	]
+}

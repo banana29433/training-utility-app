@@ -1,0 +1,26 @@
+{
+  "name": "training-utility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "ala89",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.3.3",
+    "deepmerge": "^4.2.2",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "snekfetch": "^4.0.4",
+    "sortablejs": "^1.12.0",
+    "sweetalert2": "^10.3.2"
+  }
+}

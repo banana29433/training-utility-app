@@ -1,0 +1,22 @@
+{
+    "recordLog": {
+        "topLevel": "**Type:** {{type}}\n**Co-host:** {{coHosts}}\n**Spectators:** {{spectators}}\n**Went over:** {{wentOver}}\n\n__**Attendees**__\n\n{{attendees}}\n\n**Notes:** {{notes}}",
+        "rankSubset": "**{{rank}}**\n{{attendees}}",
+        "attendeeRow": "> {{username}}{{scores}}{{outcome}}{{award}}{{notes}}",
+        "attendeeScores": " {{totalScore}} {{totalPercentage}}",
+        "activityScore": "[{{score}}/{{maxScore}}]",
+        "totalScore": "[{{score}}/{{maxScore}}]",
+        "totalPercentage": "[{{percentage}}%]",
+        "activityScoresSep": " ",
+        "attendeeOutcome": " [{{outcome}}]",
+        "passed": "passed",
+        "failed": "failed",
+        "dismissed": "dismissed",
+        "leftNoDismissal": "left without dismissal",
+        "award": " [90%+]",
+        "attendeeNotes": " ({{notes}})",
+        "wentOver": "> {{row}}",
+        "NAValue": "N/A"
+    },
+    "dateFormat": "MM/DD/YYYY"
+}
