@@ -2796,10 +2796,23 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if ($rankInput.value == 3) {
           requiredscoretopass = 13.5;
         } else {
-          requiredscoretopass = 13.5; // Default score for ranks other than Cadet/Junior/Sent
+          requiredscoretopass = 13.5;
         }
       } else if ($typeSelect.value == 5) {
-        requiredscoretopass = 5; // Required score if type is "Specialist Evaluation"
+        const openQuestions = activities.find(
+          (activity) => activity.name === "Open Questions"
+        );
+        const situationalQuestions = activities.find(
+          (activity) => activity.name === "Situational Questions"
+        );
+
+        if (openQuestions && situationalQuestions) {
+          const openScore = openQuestions.getAttendeeScore(id)[0];
+          const situationalScore = situationalQuestions.getAttendeeScore(id)[0];
+
+          return openScore === 4 && situationalScore >= 1;
+        }
+        return false;
       }
 
       return score[0] >= requiredscoretopass;
