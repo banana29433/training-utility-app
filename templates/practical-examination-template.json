@@ -1,0 +1,27 @@
+{
+	"type": 1,
+	"wentOver": "TSC Sim\nRed Fox Sim\nRiot Sim",
+	"activities": [
+		{
+			"type": 3,
+			"name": "TSC Sim",
+			"totalMarks": 3,
+			"markingScheme": 3,
+			"bonus": false
+		},
+		{
+			"type": 3,
+			"name": "Red Fox Sim",
+			"totalMarks": 3,
+			"markingScheme": 3,
+			"bonus": false
+		},
+		{
+			"type": 3,
+			"name": "Riot Sim",
+			"totalMarks": 3,
+			"markingScheme": 3,
+			"bonus": false
+		}
+	]
+}
