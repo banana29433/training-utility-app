@@ -1,0 +1,19 @@
+# dependencies
+/resources/app/node_modules/
+
+# aaa
+dist/
+out/
+build/
+
+# other junk
+*.exe
+*.dll
+*.bin
+*.pak
+*.dat
+*.log
+
+# avoid comitting test trainings
+trainings/*
+!trainings/.gitkeep
