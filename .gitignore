@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules/
+
+# build leftovers
+dist/
+out/
+build/
+
+# other possible junk
+/*.exe
+/*.dll
+/*.bin
+/*.pak
+/*.dat
+/*.log
+/trainings/*
+!/trainings/.gitkeep

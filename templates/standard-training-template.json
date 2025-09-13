@@ -1,0 +1,35 @@
+{
+	"type": 3,
+	"wentOver": "Scenario 1\nScenario 2\nScenario 3\nQuestions",
+	"activities": [
+		{
+			"type": 2,
+			"name": "Scenario Performance",
+			"totalMarks": 6,
+			"items": [
+				"Scenario 1",
+				"Scenario 2",
+				"Scenario 3"
+			],
+			"itemMarkingScheme": 2
+		},
+		{
+			"type": 2,
+			"name": "Communication Score",
+			"totalMarks": 3,
+			"items": [
+				"Scenario 1",
+				"Scenario 2",
+				"Scenario 3"
+			],
+			"itemMarkingScheme": 1
+		},
+		{
+			"type": 3,
+			"name": "Questions",
+			"totalMarks": 5,
+			"markingScheme": 5,
+			"bonus": false
+		}
+	]
+}
